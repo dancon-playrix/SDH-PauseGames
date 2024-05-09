@@ -19,7 +19,7 @@ curl -L $(curl -s https://api.github.com/repos/dancon-playrix/SDH-PauseGames/rel
 sudo unzip "SDH-PauseGames.zip" -C $HOME/homebrew/plugins
 
 # install complete, remove build dir
-rm  "$HOME/SDH-PauseGames.tar.gz"
+rm  "$HOME/SDH-PauseGames.zip"
 sudo systemctl restart plugin_loader.service
 
 echo "Installation complete"
